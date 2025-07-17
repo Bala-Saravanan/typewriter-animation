@@ -1,0 +1,44 @@
+{
+  "name": "@balasaravanan/typewriter-animation",
+  "version": "1.0.4",
+  "description": "A Minimal Typewriter Animation for your web application projects",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/index.css": "./dist/index.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bala-Saravanan/typewriter-animation.git"
+  },
+  "author": "Bala Saravanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bala-Saravanan/typewriter-animation/issues"
+  },
+  "homepage": "https://github.com/Bala-Saravanan/typewriter-animation#readme",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "tsup": "^7.2.0",
+    "typescript": "^5.0.0"
+  }
+}
